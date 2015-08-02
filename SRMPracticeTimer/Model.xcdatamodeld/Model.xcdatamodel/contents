@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="6220.14" systemVersion="13E28" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="TimerData" representedClassName="SRM_Timer.TimerData" syncable="YES">
+        <attribute name="dateEntered" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="division" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="language" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="problemName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="timerValue" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <fetchRequest name="fetchAll" entity="TimerData"/>
+    <elements>
+        <element name="TimerData" positionX="-63" positionY="-18" width="128" height="118"/>
+    </elements>
+</model>
